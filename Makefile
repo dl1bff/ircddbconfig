@@ -22,6 +22,9 @@
 all: ircddbconfig.sh
 
 
+clean:
+	echo nothing to clean
+
 
 rpm:
 	rpmbuild -ba ircddbconfig.spec

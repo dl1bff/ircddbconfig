@@ -1,5 +1,5 @@
 #!/bin/sh
-# postinst script for ircddbd
+# postinst script for ircddbconfig
 #
 # see: dh_installdeb(1)
 
