@@ -1,0 +1,15 @@
+Source: ircddbconfig
+Section: hamradio
+Priority: extra
+Maintainer: Michael Dirska <dl1bff@mdx.de>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+Homepage: http://ircDDB.net
+
+Package: ircddbconfig
+Architecture: all
+Depends: bash, ed, gawk, ircddbd, ircddbmhd, mktemp, sed
+Description: ircDDB config script
+ This script tries to remove old versions of ircDDB from the computer and
+ configures the various parts of a DSTAR repeater automatically.
+
